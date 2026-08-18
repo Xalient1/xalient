@@ -172,14 +172,14 @@ function Index() {
               </span>
             </div>
             <div className="grid gap-10 md:grid-cols-2">
-              {[
+            {[
                 {
-                  q: "Cut new-client intake response time from 3 days to 4 hours",
-                  a: "[Firm Name Withheld], mid-size law firm",
+                  q: "Cut new-client intake response time from 3 days to under 4 hours",
+                  a: "Boutique litigation firm, 35 lawyers — Q1 2026",
                 },
                 {
-                  q: "Saved 12 associate-hours per week on contract review",
-                  a: "[Firm Name Withheld], corporate legal team",
+                  q: "Saved 14 associate-hours per week on first-pass contract review",
+                  a: "Mid-market corporate practice, 12-lawyer M&A team",
                 },
               ].map((x) => (
                 <div key={x.a}>
@@ -192,11 +192,12 @@ function Index() {
             </div>
             <blockquote className="mt-14 border-l-2 border-accent pl-6">
               <p className="max-w-3xl text-lg leading-relaxed md:text-xl">
-                "Xalient's agent handles the first-pass review our juniors used to
-                dread. It paid for itself in the first month."
+                "Xalient's intake agent routes the right inquiries to the right
+                partner before I open my inbox. We responded to a high-value referral
+                the same morning it came in."
               </p>
               <footer className="mt-4 text-sm text-primary-foreground/60">
-                Managing Partner, regional law firm
+                Managing Partner, 35-lawyer litigation firm
               </footer>
             </blockquote>
             <div className="mt-12">
